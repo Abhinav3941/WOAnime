@@ -1,0 +1,55 @@
+.container{
+   
+  
+  }
+.tokyo_cont{
+  width:1250px;
+  height: 500px;
+ position: relative;
+}
+.tokyo{
+  object-fit: cover;
+}
+.tokyo_txt{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 10px;
+    padding: 5px;
+    background: linear-gradient(to bottom , rgb(4, 109, 116) , rgba(103, 3, 3, 0.832));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   
+   
+}
+
+.h1txt{
+  font-size: 50px;
+}
+
+.h2txt{
+  font-size: 30px;
+}
+
+
+
+.txt_cont{
+  
+  display: flex;
+  gap: 100px;
+}
+
+.txt_item{
+ flex: 1;
+ margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+.text_desc{
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+
