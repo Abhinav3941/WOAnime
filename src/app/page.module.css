@@ -1,4 +1,4 @@
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,8 +108,8 @@
 .logo {
   position: relative;
 }
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+ Enable hover only on non-touch devices 
+ @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -126,7 +126,7 @@
   }
 }
 
-/* Mobile */
+
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -203,7 +203,7 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
+
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -227,4 +227,47 @@
   to {
     transform: rotate(0deg);
   }
+} */
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+ 
 }
+
+.items{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.title{
+  font-size: 60px;
+  background: linear-gradient(to bottom , rgb(1, 65, 70) , rgb(177, 252, 254));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.desc{
+  color: rgba(4, 207, 207, 0.849);
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.gojo1{
+
+  height : 400px;
+    width: 650px;
+    border-radius: 50px ;
+   
+}
+
+
+
+

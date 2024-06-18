@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Added gap for spacing between items */
+}
+
+.item {
+  margin: 20px;
+  padding: 20px; /* Removed margin to avoid extra spacing */
+}
+
+.catTitle {
+  color: #3e7e40;
+}
+
+.imgContainer {
+ 
+ 
+}
+
+.img {
+  width: 100%; /* Set width to 100% for original size */
+  height: auto;  /* Set height to auto to maintain aspect ratio */
+  border: 1px solid rgba(255, 255, 255, 0.187);
+}
+
+
+.content {
+   /* Center content horizontally */
+   display: flex;
+  align-items: left; /* Maintain vertical centering */
+  justify-content: center;
+}
+
+.dwnbtn{
+  
+  display: flex;
+  align-items: center; /* Maintain vertical centering */
+  justify-content: center;
+}
+
+
+
+/*.download-btn {
+  position: absolute;
+  bottom: 10px; /* Adjust position for spacing below image 
+ // left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #3e8e41;
+}
+*/
