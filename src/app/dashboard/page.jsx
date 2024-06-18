@@ -55,7 +55,7 @@ const { data , mutate, error , isLoading} = useSWR(
 
 
 if(session.status === "loading"){
-  return<p>buffering...</p>;
+  return<p>Please Wait....</p>;
 }
 if(session.status === "unauthenticated"){
   router?.push("/dashboard/login");

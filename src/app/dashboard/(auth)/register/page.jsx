@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import styles from "@/app/dashboard/(auth)/register/page.module.css"
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import Buton from '@/components/Buton/Buton'
 
 const register = () => {
 
@@ -51,6 +52,11 @@ const handleSubmit = async(e)=>{
     <div className={styles.container}>
 
       <div>Already an USER ?</div>
+      
+      <Buton text="Sign In" url ="/dashboard/login" />
+
+      <div>Otherwise</div>
+
       <form className={styles.form} onSubmit={handleSubmit}>
         <input 
 
@@ -82,7 +88,7 @@ const handleSubmit = async(e)=>{
       <button className={styles.button}>Register</button>
       </form>
       {err && <p>"something went wrong"</p>}
-      <Link href="/dashboard/login">sign in</Link>
+     
      
     </div>
   )

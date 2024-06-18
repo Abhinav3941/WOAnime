@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '@/components/buton/buton.module.css'
+import styles from '@/components/Buton/Buton.module.css'
 import Link from 'next/link'
 
 const Buton = ({text , url}) => {
