@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import { ThemeProvider } from "@/context/ThemeContext"
-import AuthProvider from "@/components/auth/auth";
+import AuthProvider from "@/components/Auth/Auth";
 
 
 

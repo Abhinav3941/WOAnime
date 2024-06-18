@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import styles from './page.module.css'
 import Tokyo from "/public/tokyo.jpg"
-import Buton from '@/components/buton/buton';
+import Buton from '@/components/Buton/Buton';
 
 const about = () => {
   return (

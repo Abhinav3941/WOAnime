@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './page.module.css';
 import Image from "next/image";
 import Sai from "/public/sai.png"
-import Buton from '@/components/buton/buton';
+import Buton from '@/components/Buton/Buton';
 const Contacts = () => {
   return (
     <div className={styles.container}>

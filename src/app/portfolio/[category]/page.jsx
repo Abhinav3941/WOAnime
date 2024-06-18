@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./page.module.css";
-import Buton from "@/components/buton/buton";
+import Buton from "@/components/Buton/Buton";
 import Image from "next/image";
 import { info } from "@/app/portfolio/[category]/data";
 import { notFound } from "next/navigation";
