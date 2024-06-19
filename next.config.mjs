@@ -1,24 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.pexels.com',
-       
       },
     ],
     formats: ['image/webp'],
     domains: ['images.pexels.com'],
   },
 };
-
-
-module.exports = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
-}
-
-
-export default nextConfig;
